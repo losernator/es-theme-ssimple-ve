@@ -1,11 +1,26 @@
-# es-theme-ssimple-v
-Theme 'SSIMPLE V' v1.0
+# ssimple v - vertical theme for Retropie Emulationstation
+Theme 'SSIMPLE V'\
 For use with vertical display
+ 
+## Changelog
+- v 1.0
 
-# Changelog
+## How to use
 
-# License
--------------------------------------------------------------------------
+### Recommended theme option:
+- UI SETTINGS > TRANSITION STYLE: INSTANT
+- UI SETTINGS > CAROUSEL TRANSITIONS: SLIDE (or NONE)
+
+
+### Compatibility
+
+**This theme is designed for use only on 16:9 vertical display**\
+tested on 1080x1920 and 720x1280 resolution.
+
+
+## License
+[![License: CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 Summary of the license below:
 * ALLOWED:      - Share and duplicate as it is
                 - Edit, alter, change it
@@ -13,7 +28,8 @@ Summary of the license below:
                 - Indicate changes to it
                 - Publish the changes under the same license
 * PROHIBITED:   - Commercial distribution
--------------------------------------------------------------------------
-# LOGO NOTICE
+
+## LOGO NOTICE
 * The used logos and trademarks are copyright of their respective owners.
--------------------------------------------------------------------------
+
+## Screenshots
