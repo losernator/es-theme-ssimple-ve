@@ -34,7 +34,7 @@ Summary of the license below:
 * The used logos and trademarks are copyright of their respective owners.
 
 ## Screenshots
-![screenshot example01](screenshot01.png)
-![screenshot example02](screenshot02.png)
+![screenshot example01](screenshot00.png)
+![screenshot example02](screenshot01.png)
 
 ## Video
