@@ -11,6 +11,7 @@ For use with vertical display
 - UI SETTINGS > TRANSITION STYLE: INSTANT
 - UI SETTINGS > CAROUSEL TRANSITIONS: SLIDE (or NONE)
 
+**You may need properly scrapped gamelist.xml-including video, image, marquee, thumbnail- for more organized view**
 
 ### Compatibility
 
@@ -33,3 +34,7 @@ Summary of the license below:
 * The used logos and trademarks are copyright of their respective owners.
 
 ## Screenshots
+![screenshot example01](screenshot01.png)
+![screenshot example02](screenshot02.png)
+
+## Video

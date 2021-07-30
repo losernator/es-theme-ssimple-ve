@@ -102,9 +102,10 @@ license: creative commons CC-BY-NC-SA
 		</image>
 		<!-- System menu -->
 		<helpsystem name="help">
-			<pos>0.1 0.98</pos>
-			<textColor>7d7d7d</textColor>
-			<iconColor>7d7d7d</iconColor>
+			<pos>0.5 0.98</pos>
+			<origin>0.5 0.5</origin>
+			<textColor>9d9d9d</textColor>
+			<iconColor>9d9d9d</iconColor>
 			<fontPath>./assets/font_sub.ttf</fontPath>
 			<fontSize>0.012</fontSize>
 		</helpsystem>
@@ -137,8 +138,8 @@ license: creative commons CC-BY-NC-SA
 		</rating>
 		<helpsystem name="help">
 			<pos>0.03 0.98</pos>
-			<textColor>7d7d7d</textColor>
-			<iconColor>7d7d7d</iconColor>
+			<textColor>9d9d9d</textColor>
+			<iconColor>9d9d9d</iconColor>
 			<fontPath>./assets/font_sub.ttf</fontPath>
 			<fontSize>0.012</fontSize>
 		</helpsystem>
@@ -195,7 +196,7 @@ license: creative commons CC-BY-NC-SA
 		<textlist name="gamelist">
 			<pos>0.037 0.5</pos>
 			<origin>0 0</origin>
-			<size>0.6740 0.4770</size>
+			<size>0.92 0.4770</size>
 			<selectorColor>bc3040</selectorColor>
 			<selectedColor>ffffff</selectedColor>
 			<primaryColor>9e9da5</primaryColor>
