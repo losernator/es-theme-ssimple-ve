@@ -1,5 +1,5 @@
 <!--
-theme: SSIMPLE V
+theme: SSIMPLE P
 version: 1.0
 author: losernator
 license: creative commons CC-BY-NC-SA
@@ -11,12 +11,12 @@ license: creative commons CC-BY-NC-SA
 			<carousel name="systemcarousel">
 				<type>vertical</type>
 				<origin>0.5 0.5</origin>
-				<pos>0.29 0.485</pos>
+				<pos>0.359 0.476</pos>
 				<size>1 1</size>
 				<logoScale>1</logoScale>
-				<logoSize>0.45 0.100</logoSize>
+				<logoSize>0.291 0.200</logoSize>
 				<color>00000000</color>
-				<maxLogoCount>5</maxLogoCount>
+				<maxLogoCount>3</maxLogoCount>
 			</carousel>
 		</view>
 	</feature>
@@ -38,23 +38,23 @@ license: creative commons CC-BY-NC-SA
 		</image>
 		<image name="carouselShadow" extra="true">
 			<tile>false</tile>
-			<pos>0 0.2</pos>
+			<pos>0 0</pos>
 			<origin>0 0</origin>
-			<size>1 0.6</size>
+			<size>1 1</size>
 			<path>./assets/carouselshadow.png</path>
 		</image>
 		<image name="carouselBG" extra="true">
 			<tile>false</tile>
-			<pos>0 0.4</pos>
+			<pos>0 0.3333333</pos>
 			<origin>0 0</origin>
-			<size>1 0.2</size>
+			<size>1 0.333333</size>
 			<path>./assets/backgrounds/${system.theme}.png</path>
 		</image>
 		<image name="carouselpattern" extra="true">
 			<tile>false</tile>
-			<pos>0 0.4</pos>
+			<pos>0 0.33333333</pos>
 			<origin>0 0</origin>
-			<size>1 0.2</size>
+			<size>1 0.33333333</size>
 			<path>./assets/patternw.png</path>
 			<color>0000001f</color>
 		</image>
@@ -62,31 +62,31 @@ license: creative commons CC-BY-NC-SA
 			<path>./assets/systems/${system.theme}.svg</path>
 			<color>0000005a</color>
 		</image>
+		<!-- ..games available-->
 		<image name="systminfoBox" extra="true">
 			<tile>false</tile>
 			<origin>0 0</origin>
-			<pos>0.110 0.55</pos>
-			<size>0.35 0</size>
+			<pos>0.252 0.587</pos>
+			<size>0.235 0</size>
 			<path>./assets/sysinfobox.svg</path>
 			<color>ffffff</color>
 		</image>
-		<!-- ..games available-->
 		<text name="systemInfo">
 			<fontPath>./assets/font_sub.ttf</fontPath>
-			<fontSize>0.012</fontSize>
+			<fontSize>0.021</fontSize>
 			<alignment>left</alignment>
 			<backgroundColor>00000000</backgroundColor>
 			<color>fafafa</color>
 			<origin>0 0</origin>
-			<pos>0.140 0.539</pos>
+			<pos>0.27 0.585</pos>
 			<size>0.980 0.050</size>
 		</text>
 		<!-- Controller -->
 		<image name="systemController" extra="true">
 			<tile>false</tile>
-			<pos>0.75 0.5</pos>
+			<pos>0.70 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>0.4 0.2</maxSize>
+			<maxSize>0.4 0.25</maxSize>
 			<path>./assets/systems/${system.theme}_controller.svg</path>
 			<color>ffffff</color>
 		</image>
@@ -95,8 +95,8 @@ license: creative commons CC-BY-NC-SA
 			<tile>false</tile>
 			<zIndex>41</zIndex>
 			<origin>0.5 0.5</origin>
-			<pos>0.29 0.480</pos>
-			<maxSize>0.45 0.10</maxSize>
+			<pos>0.359 0.47</pos>
+			<maxSize>0.291 0.20</maxSize>
 			<path>./assets/systems/${system.theme}.svg</path>
 			<color>ffffff</color>
 		</image>
@@ -107,7 +107,7 @@ license: creative commons CC-BY-NC-SA
 			<textColor>9d9d9d</textColor>
 			<iconColor>9d9d9d</iconColor>
 			<fontPath>./assets/font_sub.ttf</fontPath>
-			<fontSize>0.012</fontSize>
+			<fontSize>0.017</fontSize>
 		</helpsystem>
 	</view>
 	<!--Game list menu -->
@@ -122,9 +122,9 @@ license: creative commons CC-BY-NC-SA
 		</image>
 		<image name="logo">
 			<path>./assets/systems/${system.theme}.svg</path>
-			<pos>0.037 0.44625</pos>
+			<pos>0.0208 0.074</pos>
 			<origin>0 0.5</origin>
-			<maxSize>0.711 0.078125</maxSize>
+			<maxSize>0.375 0.132</maxSize>
 			<color>000000</color>
 		</image>
 		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer, md_lbl_players, md_genre, md_developer, md_players, md_description">
@@ -137,110 +137,104 @@ license: creative commons CC-BY-NC-SA
 			<pos>1 1</pos>
 		</rating>
 		<helpsystem name="help">
-			<pos>0.5 0.98</pos>
-			<origin>0.5 0.5</origin>
+			<pos>0.0208 0.98</pos>
+			<origin>0 0.5</origin>
 			<textColor>9d9d9d</textColor>
 			<iconColor>9d9d9d</iconColor>
 			<fontPath>./assets/font_sub.ttf</fontPath>
-			<fontSize>0.012</fontSize>
+			<fontSize>0.017</fontSize>
 		</helpsystem>
 	</view>
 	<view name="basic, detailed, video">
 		<!-- background -->
-		<image name="background">
-			<tile>false</tile>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 1</size>
-			<color>37484f</color>
-			<path>./assets/bg_white.png</path>
-		</image>
 		<image name="patternShadow" extra="true">
 			<tile>false</tile>
-			<pos>0 0.3248</pos>
+			<pos>0.415 0</pos>
 			<origin>0 0</origin>
-			<size>1 0.2</size>
-			<path>./assets/patternw.png</path>
+			<size>0.2 1</size>
+			<path>./assets/patternwh.png</path>
 			<color>000000</color>
 			<zIndex>32</zIndex>
 		</image>
 		<image name="patternMid" extra="true">
 			<tile>false</tile>
-			<pos>0 0.338</pos>
+			<pos>0.400 0</pos>
 			<origin>0 0</origin>
-			<size>1 0.2</size>
-			<path>./assets/patternw.png</path>
+			<size>0.2 1</size>
+			<path>./assets/patternwh.png</path>
 			<color>f7f7f7</color>
 			<zIndex>33</zIndex>
 		</image>
 		<image name="playcircle" extra="true">
-			<pos>0.5 0.156</pos>
+			<pos>0.78125 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<size>0.22 0</size>
+			<size>0.128125 0</size>
 			<path>./assets/playcircle.svg</path>
 			<color>cfdae0</color>
 		</image>
 		<image name="videoVignette" extra="true">
-			<pos>0.5 0</pos>
-			<origin>0.5 0</origin>
-			<size>1 0.421875</size>
+			<pos>1 0.5</pos>
+			<origin>1 0.5</origin>
+			<size>0.5 1</size>
 			<path>./assets/vignette_frame.png</path>
 			<zIndex>31</zIndex>
 		</image>
 		<image name="listBG" extra="true">
-			<pos>0.5 0.4</pos>
-			<origin>0.5 0</origin>
-			<size>1 0.6</size>
-			<path>./assets/bottombase.png</path>
+			<pos>0 0.5</pos>
+			<origin>0 0.5</origin>
+			<size>0.52 1</size>
+			<path>./assets/bottombaseh.png</path>
 			<zIndex>34</zIndex>
 		</image>
 		<textlist name="gamelist">
-			<pos>0.037 0.5</pos>
+			<pos>0.0208 0.150</pos>
 			<origin>0 0</origin>
-			<size>0.92 0.4770</size>
+			<size>0.49 0.8</size>
 			<selectorColor>bc3040</selectorColor>
 			<selectedColor>ffffff</selectedColor>
 			<primaryColor>9e9da5</primaryColor>
-			<secondaryColor>5f819f</secondaryColor>
+			<secondaryColor>d2505f</secondaryColor>
 			<fontPath>./assets/GmarketSansMedium.otf</fontPath>
 			<forceUppercase>0</forceUppercase>
 			<horizontalMargin>0.01</horizontalMargin>
 			<lineSpacing>1.5</lineSpacing>
 			<alignment>left</alignment>
-			<fontSize>0.0185</fontSize>
+			<fontSize>0.03</fontSize>
 			<scrollSound>./assets/scroll.wav</scrollSound>
-			<selectorHeight>0.0291</selectorHeight>
-			<selectorOffsetY>0.001</selectorOffsetY>
+			<selectorHeight>0.0481</selectorHeight>
+			<selectorOffsetY>0.00</selectorOffsetY>
 			<zIndex>35</zIndex>
 		</textlist>
 	</view>
 	<view name="basic, detailed, video, grid">
+		<!--no room for 4:3 aspect ratio
 		<image name="md_thumbnail">
-			<pos>0.9629 0.5</pos>
+			<pos>0.5625 0.150</pos>
 			<origin>1 0</origin>
-			<size>0.3703 0</size>
+			<size>0.21875 0</size>
 			<zIndex>36</zIndex>
 		</image>
+		-->
 		<image name="md_marquee">
-			<pos>0.5 0.156</pos>
+			<pos>0.78125 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>0.7037 0.1875</maxSize>
+			<maxSize>0.4 0.45</maxSize>
 			<zIndex>37</zIndex>
 		</image>
 	</view>
 	<view name="detailed">
 		<image name="md_image">
-			<pos>0.5 0.2109375</pos>
+			<pos>0.78125 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<size>0 0.421875</size>
+			<size>0 1</size>
 		</image>
 	</view>
 	<feature supported="video">
 		<view name="video">
 			 <video name="md_video">
-				<pos>0.5 0.2109375</pos>
+				<pos>0.7921875 0.5</pos>
 				<origin>0.5 0.5</origin>
-				<size>0 0.421875</size>
+				<size>0 1</size>
 				<delay>0.0</delay>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
@@ -250,77 +244,78 @@ license: creative commons CC-BY-NC-SA
 	<view name="grid">
 		<!-- background -->
 		<image name="playcircle" extra="true">
-			<pos>0.5 0.156</pos>
+			<pos>0.78125 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<size>0.22 0</size>
+			<size>0.128125 0</size>
 			<path>./assets/playcircle.svg</path>
 			<color>cfdae0</color>
 			<zIndex>14</zIndex>
 		</image>
-		<video name="md_video">
-			<pos>0.5 0.2109375</pos>
-			<origin>0.5 0.5</origin>
-			<size>0 0.421875</size>
-			<delay>0.0</delay>
-			<showSnapshotNoVideo>true</showSnapshotNoVideo>
-			<showSnapshotDelay>false</showSnapshotDelay>
+			 <video name="md_video">
+				<pos>0.7921875 0.5</pos>
+				<origin>0.5 0.5</origin>
+				<size>0 1</size>
+				<delay>0.0</delay>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
 			<zIndex>15</zIndex>
 		 </video>
 		<image name="videoVignette" extra="true">
-			<pos>0.5 0</pos>
-			<origin>0.5 0</origin>
-			<size>1 0.421875</size>
+			<pos>1 0.5</pos>
+			<origin>1 0.5</origin>
+			<size>0.5 1</size>
 			<path>./assets/vignette_frame.png</path>
 			<zIndex>16</zIndex>
 		</image>
 		<image name="patternShadow" extra="true">
 			<tile>false</tile>
-			<pos>0 0.3248</pos>
+			<pos>0.415 0</pos>
 			<origin>0 0</origin>
-			<size>1 0.2</size>
-			<path>./assets/patternw.png</path>
+			<size>0.2 1</size>
+			<path>./assets/patternwh.png</path>
 			<color>000000</color>
 			<zIndex>17</zIndex>
 		</image>
 		<image name="patternMid" extra="true">
 			<tile>false</tile>
-			<pos>0 0.338</pos>
+			<pos>0.400 0</pos>
 			<origin>0 0</origin>
-			<size>1 0.2</size>
-			<path>./assets/patternw.png</path>
+			<size>0.2 1</size>
+			<path>./assets/patternwh.png</path>
 			<color>f7f7f7</color>
 			<zIndex>18</zIndex>
 		</image>
 		<image name="listBG" extra="true">
-			<pos>0.5 0.4</pos>
-			<origin>0.5 0</origin>
-			<size>1 0.6</size>
-			<path>./assets/bottombase.png</path>
+			<pos>0 0.5</pos>
+			<origin>0 0.5</origin>
+			<size>0.52 1</size>
+			<path>./assets/bottombaseh.png</path>
 			<zIndex>19</zIndex>
 		</image>
 		<image name="patternBottom" extra="true">
 			<tile>false</tile>
 			<pos>0 0.93</pos>
 			<origin>0 0</origin>
-			<size>1 0.2</size>
+			<size>0.52 0.2</size>
 			<path>./assets/patternw.png</path>
 			<color>f7f7f7</color>
 			<zIndex>33</zIndex>
 		</image>
+		<!--padding LURD -->
 		<imagegrid name="gamegrid">
-			<pos>0 0.5</pos>
-			<size>1 0.477</size>
-			<margin>0.02 0.005</margin>
-			<padding>0.05 0 0.1 0</padding>
+			<pos>0 0.150</pos>
+			<size>0.52 1</size>
+			<margin>0.005 0.02</margin>
+			<padding>0.02 0.01 0 0</padding>
 		</imagegrid>
 		<gridtile name="default">
-			<size>0.213 0.169414875</size>
-			<padding>0.005 0.005</padding>
+			<size>0.12 0.2844444</size>
+			<padding>0.0 0.002</padding>
 			<imageColor>ffffffa0</imageColor>
 			<backgroundColor>ffffff00</backgroundColor>
 		</gridtile>
 		<gridtile name="selected">
-			<size>0.2343 0.1863563625</size>
+			<size>0.132 0.31288</size>
 			<backgroundColor>ffffff00</backgroundColor>
 		</gridtile>
 	</view>

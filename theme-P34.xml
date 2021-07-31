@@ -73,12 +73,12 @@ license: creative commons CC-BY-NC-SA
 		<!-- ..games available-->
 		<text name="systemInfo">
 			<fontPath>./assets/font_sub.ttf</fontPath>
-			<fontSize>0.012</fontSize>
+			<fontSize>0.017</fontSize>
 			<alignment>left</alignment>
 			<backgroundColor>00000000</backgroundColor>
 			<color>fafafa</color>
 			<origin>0 0</origin>
-			<pos>0.140 0.539</pos>
+			<pos>0.140 0.545</pos>
 			<size>0.980 0.050</size>
 		</text>
 		<!-- Controller -->
@@ -174,7 +174,7 @@ license: creative commons CC-BY-NC-SA
 			<zIndex>33</zIndex>
 		</image>
 		<image name="playcircle" extra="true">
-			<pos>0.5 0.156</pos>
+			<pos>0.5 0.18</pos>
 			<origin>0.5 0.5</origin>
 			<size>0.22 0</size>
 			<path>./assets/playcircle.svg</path>
@@ -222,7 +222,7 @@ license: creative commons CC-BY-NC-SA
 			<zIndex>36</zIndex>
 		</image>
 		<image name="md_marquee">
-			<pos>0.5 0.156</pos>
+			<pos>0.5 0.18</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.7037 0.1875</maxSize>
 			<zIndex>37</zIndex>
@@ -230,9 +230,9 @@ license: creative commons CC-BY-NC-SA
 	</view>
 	<view name="detailed">
 		<image name="md_image">
-			<pos>0.5 0.2109375</pos>
+			<pos>0.5 0.25</pos>
 			<origin>0.5 0.5</origin>
-			<size>0 0.421875</size>
+			<size>0 0.6</size>
 		</image>
 	</view>
 	<feature supported="video">
@@ -240,7 +240,7 @@ license: creative commons CC-BY-NC-SA
 			 <video name="md_video">
 				<pos>0.5 0.2109375</pos>
 				<origin>0.5 0.5</origin>
-				<size>0 0.421875</size>
+				<size>0 0.6</size>
 				<delay>0.0</delay>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
