@@ -178,7 +178,7 @@ license: creative commons CC-BY-NC-SA
 			<origin>0.5 0.5</origin>
 			<size>0.22 0</size>
 			<path>./assets/playcircle.svg</path>
-			<color>cfdae0</color>
+			<color>4c616d</color>
 		</image>
 		<image name="videoVignette" extra="true">
 			<pos>0.5 0</pos>
