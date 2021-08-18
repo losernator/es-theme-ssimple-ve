@@ -222,7 +222,7 @@ license: creative commons CC-BY-NC-SA
 			<zIndex>37</zIndex>
 		</image>
 	</view>
-	<view name="detailed">
+	<view name="detailed, video">
 		<image name="md_image">
 			<pos>0.78125 0.5</pos>
 			<origin>0.5 0.5</origin>
@@ -236,7 +236,7 @@ license: creative commons CC-BY-NC-SA
 				<origin>0.5 0.5</origin>
 				<size>0 1</size>
 				<delay>0.0</delay>
-				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotNoVideo>false</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
 			 </video>
 		</view>
@@ -248,7 +248,7 @@ license: creative commons CC-BY-NC-SA
 			<origin>0.5 0.5</origin>
 			<size>0.128125 0</size>
 			<path>./assets/playcircle.svg</path>
-			<color>4c616d</color>
+			<color>cfdae0</color>
 			<zIndex>14</zIndex>
 		</image>
 			 <video name="md_video">
