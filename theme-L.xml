@@ -1,6 +1,6 @@
 <!--
 theme: SSIMPLE P
-version: 1.0
+version: 1.2
 author: losernator
 license: creative commons CC-BY-NC-SA
 -->
@@ -146,7 +146,6 @@ license: creative commons CC-BY-NC-SA
 		</helpsystem>
 	</view>
 	<view name="basic, detailed, video">
-		<!-- background -->
 		<image name="patternShadow" extra="true">
 			<tile>false</tile>
 			<pos>0.415 0</pos>
@@ -206,9 +205,9 @@ license: creative commons CC-BY-NC-SA
 			<zIndex>35</zIndex>
 		</textlist>
 	</view>
-	<view name="basic, detailed, video, grid">
+	<view name="detailed, video">
 		<image name="md_thumbnail">
-			<pos>0.5625 0.150</pos>
+			<pos>0.535 0.150</pos>
 			<origin>1 0</origin>
 			<size>0.21875 0</size>
 			<zIndex>36</zIndex>
@@ -219,12 +218,10 @@ license: creative commons CC-BY-NC-SA
 			<maxSize>0.4 0.45</maxSize>
 			<zIndex>37</zIndex>
 		</image>
-	</view>
-	<view name="detailed, video">
 		<image name="md_image">
 			<pos>0.78125 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<size>0 1</size>
+			<maxSize>1 1</maxSize>
 		</image>
 	</view>
 	<feature supported="video">
@@ -232,7 +229,7 @@ license: creative commons CC-BY-NC-SA
 			 <video name="md_video">
 				<pos>0.7921875 0.5</pos>
 				<origin>0.5 0.5</origin>
-				<size>0 1</size>
+				<maxSize>1 1</maxSize>
 				<delay>0.0</delay>
 				<showSnapshotNoVideo>false</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
@@ -246,13 +243,13 @@ license: creative commons CC-BY-NC-SA
 			<origin>0.5 0.5</origin>
 			<size>0.128125 0</size>
 			<path>./assets/playcircle.svg</path>
-			<color>cfdae0</color>
+			<color>4c616d</color>
 			<zIndex>14</zIndex>
 		</image>
 			 <video name="md_video">
 				<pos>0.7921875 0.5</pos>
 				<origin>0.5 0.5</origin>
-				<size>0 1</size>
+				<maxSize>1 1</maxSize>
 				<delay>0.0</delay>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
@@ -299,7 +296,6 @@ license: creative commons CC-BY-NC-SA
 			<color>f7f7f7</color>
 			<zIndex>33</zIndex>
 		</image>
-		<!--padding LURD -->
 		<imagegrid name="gamegrid">
 			<pos>0 0.150</pos>
 			<size>0.52 1</size>

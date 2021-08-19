@@ -1,6 +1,6 @@
 <!--
 theme: SSIMPLE V
-version: 1.0
+version: 1.2
 author: losernator
 license: creative commons CC-BY-NC-SA
 -->
@@ -146,15 +146,6 @@ license: creative commons CC-BY-NC-SA
 		</helpsystem>
 	</view>
 	<view name="basic, detailed, video">
-		<!-- background -->
-		<image name="background">
-			<tile>false</tile>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 1</size>
-			<color>37484f</color>
-			<path>./assets/bg_white.png</path>
-		</image>
 		<image name="patternShadow" extra="true">
 			<tile>false</tile>
 			<pos>0 0.3248</pos>
@@ -214,25 +205,23 @@ license: creative commons CC-BY-NC-SA
 			<zIndex>35</zIndex>
 		</textlist>
 	</view>
-	<view name="basic, detailed, video, grid">
-		<image name="md_thumbnail">
-			<pos>0.9629 0.5</pos>
-			<origin>1 0</origin>
-			<size>0.3703 0</size>
-			<zIndex>36</zIndex>
-		</image>
+	<view name="detailed, video">
 		<image name="md_marquee">
 			<pos>0.5 0.156</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.7037 0.1875</maxSize>
 			<zIndex>37</zIndex>
 		</image>
-	</view>
-	<view name="detailed, video">
+		<image name="md_thumbnail">
+			<pos>0.9629 0.5</pos>
+			<origin>1 0</origin>
+			<size>0.3703 0</size>
+			<zIndex>36</zIndex>
+		</image>
 		<image name="md_image">
 			<pos>0.5 0.2109375</pos>
 			<origin>0.5 0.5</origin>
-			<size>0 0.421875</size>
+			<maxSize>1 0.421875</maxSize>
 		</image>
 	</view>
 	<feature supported="video">
@@ -240,7 +229,7 @@ license: creative commons CC-BY-NC-SA
 			 <video name="md_video">
 				<pos>0.5 0.2109375</pos>
 				<origin>0.5 0.5</origin>
-				<size>0 0.421875</size>
+				<maxSize>1 0.421875</maxSize>
 				<delay>0.0</delay>
 				<showSnapshotNoVideo>false</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
@@ -254,13 +243,13 @@ license: creative commons CC-BY-NC-SA
 			<origin>0.5 0.5</origin>
 			<size>0.22 0</size>
 			<path>./assets/playcircle.svg</path>
-			<color>cfdae0</color>
+			<color>4c616d</color>
 			<zIndex>14</zIndex>
 		</image>
 		<video name="md_video">
 			<pos>0.5 0.2109375</pos>
 			<origin>0.5 0.5</origin>
-			<size>0 0.421875</size>
+			<maxSize>1 0.421875</maxSize>
 			<delay>0.0</delay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
