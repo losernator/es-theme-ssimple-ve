@@ -206,14 +206,13 @@ license: creative commons CC-BY-NC-SA
 		</textlist>
 	</view>
 	<view name="detailed, video">
-		<!--no room for 4:3 aspect ratio
+		<!-- thumbnail image (box art) -->
 		<image name="md_thumbnail">
 			<pos>0.5625 0.150</pos>
 			<origin>1 0</origin>
 			<size>0.21875 0</size>
 			<zIndex>36</zIndex>
 		</image>
-		-->
 		<image name="md_marquee">
 			<pos>0.78125 0.5</pos>
 			<origin>0.5 0.5</origin>
@@ -263,6 +262,12 @@ license: creative commons CC-BY-NC-SA
 			<size>0.5 1</size>
 			<path>./assets/vignette_frame.png</path>
 			<zIndex>16</zIndex>
+		</image>
+		<image name="md_marquee">
+			<pos>0.78125 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.4 0.45</maxSize>
+			<zIndex>17</zIndex>
 		</image>
 		<image name="patternShadow" extra="true">
 			<tile>false</tile>

@@ -1,6 +1,6 @@
 <!--
 theme: SSIMPLE V
-version: 1.2
+version: 1.4
 author: losernator
 license: creative commons CC-BY-NC-SA
 -->
@@ -122,7 +122,7 @@ license: creative commons CC-BY-NC-SA
 		</image>
 		<image name="logo">
 			<path>./assets/systems/${system.theme}.svg</path>
-			<pos>0.037 0.44625</pos>
+			<pos>0.037 0.54625</pos>
 			<origin>0 0.5</origin>
 			<maxSize>0.711 0.078125</maxSize>
 			<color>000000</color>
@@ -148,7 +148,7 @@ license: creative commons CC-BY-NC-SA
 	<view name="basic, detailed, video">
 		<image name="patternShadow" extra="true">
 			<tile>false</tile>
-			<pos>0 0.3248</pos>
+			<pos>0 0.4248</pos>
 			<origin>0 0</origin>
 			<size>1 0.2</size>
 			<path>./assets/patternw.png</path>
@@ -157,7 +157,7 @@ license: creative commons CC-BY-NC-SA
 		</image>
 		<image name="patternMid" extra="true">
 			<tile>false</tile>
-			<pos>0 0.338</pos>
+			<pos>0 0.4380</pos>
 			<origin>0 0</origin>
 			<size>1 0.2</size>
 			<path>./assets/patternw.png</path>
@@ -165,7 +165,7 @@ license: creative commons CC-BY-NC-SA
 			<zIndex>33</zIndex>
 		</image>
 		<image name="playcircle" extra="true">
-			<pos>0.5 0.18</pos>
+			<pos>0.5 0.22</pos>
 			<origin>0.5 0.5</origin>
 			<size>0.22 0</size>
 			<path>./assets/playcircle.svg</path>
@@ -174,21 +174,21 @@ license: creative commons CC-BY-NC-SA
 		<image name="videoVignette" extra="true">
 			<pos>0.5 0</pos>
 			<origin>0.5 0</origin>
-			<size>1 0.421875</size>
+			<size>1 0.5</size>
 			<path>./assets/vignette_frame.png</path>
 			<zIndex>31</zIndex>
 		</image>
 		<image name="listBG" extra="true">
-			<pos>0.5 0.4</pos>
+			<pos>0.5 0.5</pos>
 			<origin>0.5 0</origin>
-			<size>1 0.6</size>
+			<size>1 0.5</size>
 			<path>./assets/bottombase.png</path>
 			<zIndex>34</zIndex>
 		</image>
 		<textlist name="gamelist">
-			<pos>0.037 0.5</pos>
+			<pos>0.037 0.60</pos>
 			<origin>0 0</origin>
-			<size>0.92 0.4770</size>
+			<size>0.92 0.380</size>
 			<selectorColor>bc3040</selectorColor>
 			<selectedColor>ffffff</selectedColor>
 			<primaryColor>9e9da5</primaryColor>
@@ -206,14 +206,15 @@ license: creative commons CC-BY-NC-SA
 		</textlist>
 	</view>
 	<view name="detailed, video">
+		<!-- thumbnail image (box art) -->
 		<image name="md_thumbnail">
-			<pos>0.9629 0.5</pos>
+			<pos>0.9629 0.6</pos>
 			<origin>1 0</origin>
-			<size>0.3703 0</size>
+			<size>0.30 0</size>
 			<zIndex>36</zIndex>
 		</image>
 		<image name="md_marquee">
-			<pos>0.5 0.18</pos>
+			<pos>0.5 0.22</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.7037 0.1875</maxSize>
 			<zIndex>37</zIndex>
@@ -221,7 +222,7 @@ license: creative commons CC-BY-NC-SA
 		<image name="md_image">
 			<pos>0.5 0.25</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>1 0.6</maxSize>
+			<maxSize>1 1</maxSize>
 		</image>
 	</view>
 	<feature supported="video">
@@ -229,7 +230,7 @@ license: creative commons CC-BY-NC-SA
 			 <video name="md_video">
 				<pos>0.5 0.2109375</pos>
 				<origin>0.5 0.5</origin>
-				<maxSize>1 0.6</maxSize>
+				<maxSize>1 1</maxSize>
 				<delay>0.0</delay>
 				<showSnapshotNoVideo>false</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
@@ -249,7 +250,7 @@ license: creative commons CC-BY-NC-SA
 		<video name="md_video">
 			<pos>0.5 0.2109375</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>1 0.6</maxSize>
+			<maxSize>1 1</maxSize>
 			<delay>0.0</delay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
@@ -258,13 +259,19 @@ license: creative commons CC-BY-NC-SA
 		<image name="videoVignette" extra="true">
 			<pos>0.5 0</pos>
 			<origin>0.5 0</origin>
-			<size>1 0.421875</size>
+			<size>1 0.5</size>
 			<path>./assets/vignette_frame.png</path>
 			<zIndex>16</zIndex>
 		</image>
+		<image name="md_marquee">
+			<pos>0.5 0.22</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.7037 0.1875</maxSize>
+			<zIndex>17</zIndex>
+		</image>
 		<image name="patternShadow" extra="true">
 			<tile>false</tile>
-			<pos>0 0.3248</pos>
+			<pos>0 0.4248</pos>
 			<origin>0 0</origin>
 			<size>1 0.2</size>
 			<path>./assets/patternw.png</path>
@@ -273,7 +280,7 @@ license: creative commons CC-BY-NC-SA
 		</image>
 		<image name="patternMid" extra="true">
 			<tile>false</tile>
-			<pos>0 0.338</pos>
+			<pos>0 0.4380</pos>
 			<origin>0 0</origin>
 			<size>1 0.2</size>
 			<path>./assets/patternw.png</path>
@@ -281,9 +288,9 @@ license: creative commons CC-BY-NC-SA
 			<zIndex>18</zIndex>
 		</image>
 		<image name="listBG" extra="true">
-			<pos>0.5 0.4</pos>
+			<pos>0.5 0.5</pos>
 			<origin>0.5 0</origin>
-			<size>1 0.6</size>
+			<size>1 0.5</size>
 			<path>./assets/bottombase.png</path>
 			<zIndex>19</zIndex>
 		</image>
@@ -297,8 +304,8 @@ license: creative commons CC-BY-NC-SA
 			<zIndex>33</zIndex>
 		</image>
 		<imagegrid name="gamegrid">
-			<pos>0 0.5</pos>
-			<size>1 0.477</size>
+			<pos>0 0.6</pos>
+			<size>1 0.40</size>
 			<margin>0.02 0.005</margin>
 			<padding>0.05 0 0.1 0</padding>
 		</imagegrid>

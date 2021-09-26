@@ -1,6 +1,6 @@
 <!--
 theme: SSIMPLE V
-version: 1.2
+version: 1.4
 author: losernator
 license: creative commons CC-BY-NC-SA
 -->
@@ -107,7 +107,7 @@ license: creative commons CC-BY-NC-SA
 			<textColor>9d9d9d</textColor>
 			<iconColor>9d9d9d</iconColor>
 			<fontPath>./assets/font_sub.ttf</fontPath>
-			<fontSize>0.012</fontSize>
+			<fontSize>0.010</fontSize>
 		</helpsystem>
 	</view>
 	<!--Game list menu -->
@@ -142,7 +142,7 @@ license: creative commons CC-BY-NC-SA
 			<textColor>9d9d9d</textColor>
 			<iconColor>9d9d9d</iconColor>
 			<fontPath>./assets/font_sub.ttf</fontPath>
-			<fontSize>0.012</fontSize>
+			<fontSize>0.010</fontSize>
 		</helpsystem>
 	</view>
 	<view name="basic, detailed, video">
@@ -188,7 +188,7 @@ license: creative commons CC-BY-NC-SA
 		<textlist name="gamelist">
 			<pos>0.037 0.5</pos>
 			<origin>0 0</origin>
-			<size>0.92 0.4770</size>
+			<size>0.92 0.4700</size>
 			<selectorColor>bc3040</selectorColor>
 			<selectedColor>ffffff</selectedColor>
 			<primaryColor>9e9da5</primaryColor>
@@ -206,22 +206,23 @@ license: creative commons CC-BY-NC-SA
 		</textlist>
 	</view>
 	<view name="detailed, video">
-		<image name="md_marquee">
-			<pos>0.5 0.156</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>0.7037 0.1875</maxSize>
-			<zIndex>37</zIndex>
-		</image>
+		<!-- thumbnail image (box art) -->
 		<image name="md_thumbnail">
 			<pos>0.9629 0.5</pos>
 			<origin>1 0</origin>
 			<size>0.3703 0</size>
 			<zIndex>36</zIndex>
 		</image>
+		<image name="md_marquee">
+			<pos>0.5 0.156</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.7037 0.1875</maxSize>
+			<zIndex>37</zIndex>
+		</image>
 		<image name="md_image">
 			<pos>0.5 0.2109375</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>1 0.421875</maxSize>
+			<maxSize>1 0.75</maxSize>
 		</image>
 	</view>
 	<feature supported="video">
@@ -229,7 +230,7 @@ license: creative commons CC-BY-NC-SA
 			 <video name="md_video">
 				<pos>0.5 0.2109375</pos>
 				<origin>0.5 0.5</origin>
-				<maxSize>1 0.421875</maxSize>
+				<maxSize>1 0.75</maxSize>
 				<delay>0.0</delay>
 				<showSnapshotNoVideo>false</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
@@ -261,6 +262,12 @@ license: creative commons CC-BY-NC-SA
 			<size>1 0.421875</size>
 			<path>./assets/vignette_frame.png</path>
 			<zIndex>16</zIndex>
+		</image>
+		<image name="md_thumbnail">
+			<pos>0.9629 0.5</pos>
+			<origin>1 0</origin>
+			<size>0.3703 0</size>
+			<zIndex>17</zIndex>
 		</image>
 		<image name="patternShadow" extra="true">
 			<tile>false</tile>
