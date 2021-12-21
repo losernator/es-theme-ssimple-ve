@@ -1,6 +1,6 @@
 <!--
 theme: SSIMPLE V
-version: 1.4
+version: 1.5
 author: losernator
 license: creative commons CC-BY-NC-SA
 -->
@@ -28,13 +28,6 @@ license: creative commons CC-BY-NC-SA
 			<size>1 1</size>
 			<color>f4f4f4</color>
 			<path>./assets/bg_white.png</path>
-		</image>
-		<image name="vignetteOverlay" extra="true">
-			<tile>false</tile>
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
-			<size>1 1</size>
-			<path>./assets/vignettev.png</path>
 		</image>
 		<image name="carouselShadow" extra="true">
 			<tile>false</tile>
@@ -182,13 +175,14 @@ license: creative commons CC-BY-NC-SA
 			<pos>0.5 0.4</pos>
 			<origin>0.5 0</origin>
 			<size>1 0.6</size>
-			<path>./assets/bottombase.png</path>
+			<path>./assets/bg_white.png</path>
+			<color>f7f7f7</color>
 			<zIndex>34</zIndex>
 		</image>
 		<textlist name="gamelist">
 			<pos>0.037 0.5</pos>
 			<origin>0 0</origin>
-			<size>0.92 0.4700</size>
+			<size>0.62 0.4700</size>
 			<selectorColor>bc3040</selectorColor>
 			<selectedColor>ffffff</selectedColor>
 			<primaryColor>9e9da5</primaryColor>
@@ -210,7 +204,7 @@ license: creative commons CC-BY-NC-SA
 		<image name="md_thumbnail">
 			<pos>0.9629 0.5</pos>
 			<origin>1 0</origin>
-			<size>0.3703 0</size>
+			<size>0.30 0</size>
 			<zIndex>36</zIndex>
 		</image>
 		<image name="md_marquee">
@@ -222,7 +216,7 @@ license: creative commons CC-BY-NC-SA
 		<image name="md_image">
 			<pos>0.5 0.2109375</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>1 0.75</maxSize>
+			<maxSize>1 1</maxSize>
 		</image>
 	</view>
 	<feature supported="video">
@@ -230,7 +224,7 @@ license: creative commons CC-BY-NC-SA
 			 <video name="md_video">
 				<pos>0.5 0.2109375</pos>
 				<origin>0.5 0.5</origin>
-				<maxSize>1 0.75</maxSize>
+				<maxSize>1 1</maxSize>
 				<delay>0.0</delay>
 				<showSnapshotNoVideo>false</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
@@ -291,17 +285,9 @@ license: creative commons CC-BY-NC-SA
 			<pos>0.5 0.4</pos>
 			<origin>0.5 0</origin>
 			<size>1 0.6</size>
-			<path>./assets/bottombase.png</path>
-			<zIndex>19</zIndex>
-		</image>
-		<image name="patternBottom" extra="true">
-			<tile>false</tile>
-			<pos>0 0.93</pos>
-			<origin>0 0</origin>
-			<size>1 0.2</size>
-			<path>./assets/patternw.png</path>
+			<path>./assets/bg_white.png</path>
 			<color>f7f7f7</color>
-			<zIndex>33</zIndex>
+			<zIndex>19</zIndex>
 		</image>
 		<imagegrid name="gamegrid">
 			<pos>0 0.5</pos>

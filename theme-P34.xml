@@ -1,6 +1,6 @@
 <!--
 theme: SSIMPLE V
-version: 1.4
+version: 1.5
 author: losernator
 license: creative commons CC-BY-NC-SA
 -->
@@ -28,13 +28,6 @@ license: creative commons CC-BY-NC-SA
 			<size>1 1</size>
 			<color>f4f4f4</color>
 			<path>./assets/bg_white.png</path>
-		</image>
-		<image name="vignetteOverlay" extra="true">
-			<tile>false</tile>
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
-			<size>1 1</size>
-			<path>./assets/vignettev.png</path>
 		</image>
 		<image name="carouselShadow" extra="true">
 			<tile>false</tile>
@@ -182,13 +175,14 @@ license: creative commons CC-BY-NC-SA
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0</origin>
 			<size>1 0.5</size>
-			<path>./assets/bottombase.png</path>
+			<path>./assets/bg_white.png</path>
+			<color>f7f7f7</color>
 			<zIndex>34</zIndex>
 		</image>
 		<textlist name="gamelist">
 			<pos>0.037 0.60</pos>
 			<origin>0 0</origin>
-			<size>0.92 0.380</size>
+			<size>0.62 0.380</size>
 			<selectorColor>bc3040</selectorColor>
 			<selectedColor>ffffff</selectedColor>
 			<primaryColor>9e9da5</primaryColor>
@@ -196,12 +190,12 @@ license: creative commons CC-BY-NC-SA
 			<fontPath>./assets/GmarketSansMedium.otf</fontPath>
 			<forceUppercase>0</forceUppercase>
 			<horizontalMargin>0.01</horizontalMargin>
-			<lineSpacing>1.5</lineSpacing>
+			<lineSpacing>1.4</lineSpacing>
 			<alignment>left</alignment>
-			<fontSize>0.0185</fontSize>
+			<fontSize>0.024</fontSize>
 			<scrollSound>./assets/scroll.wav</scrollSound>
-			<selectorHeight>0.0291</selectorHeight>
-			<selectorOffsetY>0.001</selectorOffsetY>
+			<selectorHeight>0.036</selectorHeight>
+			<selectorOffsetY>0.002</selectorOffsetY>
 			<zIndex>35</zIndex>
 		</textlist>
 	</view>
@@ -291,17 +285,9 @@ license: creative commons CC-BY-NC-SA
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0</origin>
 			<size>1 0.5</size>
-			<path>./assets/bottombase.png</path>
-			<zIndex>19</zIndex>
-		</image>
-		<image name="patternBottom" extra="true">
-			<tile>false</tile>
-			<pos>0 0.93</pos>
-			<origin>0 0</origin>
-			<size>1 0.2</size>
-			<path>./assets/patternw.png</path>
+			<path>./assets/bg_white.png</path>
 			<color>f7f7f7</color>
-			<zIndex>33</zIndex>
+			<zIndex>19</zIndex>
 		</image>
 		<imagegrid name="gamegrid">
 			<pos>0 0.6</pos>
