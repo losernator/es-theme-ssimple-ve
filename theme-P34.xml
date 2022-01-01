@@ -1,6 +1,6 @@
 <!--
 theme: SSIMPLE V
-version: 1.5
+version: 1.6
 author: losernator
 license: creative commons CC-BY-NC-SA
 -->
@@ -117,7 +117,7 @@ license: creative commons CC-BY-NC-SA
 			<path>./assets/systems/${system.theme}.svg</path>
 			<pos>0.037 0.54625</pos>
 			<origin>0 0.5</origin>
-			<maxSize>0.711 0.078125</maxSize>
+			<maxSize>0.5 0.078125</maxSize>
 			<color>000000</color>
 		</image>
 		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer, md_lbl_players, md_genre, md_developer, md_players, md_description">
@@ -172,9 +172,9 @@ license: creative commons CC-BY-NC-SA
 			<zIndex>31</zIndex>
 		</image>
 		<image name="listBG" extra="true">
-			<pos>0.5 0.5</pos>
+			<pos>0.5 0.49</pos>
 			<origin>0.5 0</origin>
-			<size>1 0.5</size>
+			<size>1 0.6</size>
 			<path>./assets/bg_white.png</path>
 			<color>f7f7f7</color>
 			<zIndex>34</zIndex>
@@ -185,6 +185,8 @@ license: creative commons CC-BY-NC-SA
 			<size>0.62 0.380</size>
 			<selectorColor>bc3040</selectorColor>
 			<selectedColor>ffffff</selectedColor>
+			<selectorHeight>0.036</selectorHeight>
+			<selectorOffsetY>0.002</selectorOffsetY>
 			<primaryColor>9e9da5</primaryColor>
 			<secondaryColor>5f819f</secondaryColor>
 			<fontPath>./assets/GmarketSansMedium.otf</fontPath>
@@ -194,8 +196,6 @@ license: creative commons CC-BY-NC-SA
 			<alignment>left</alignment>
 			<fontSize>0.024</fontSize>
 			<scrollSound>./assets/scroll.wav</scrollSound>
-			<selectorHeight>0.036</selectorHeight>
-			<selectorOffsetY>0.002</selectorOffsetY>
 			<zIndex>35</zIndex>
 		</textlist>
 	</view>
@@ -244,12 +244,18 @@ license: creative commons CC-BY-NC-SA
 		<video name="md_video">
 			<pos>0.5 0.2109375</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>1 1</maxSize>
+			<maxSize>1 3</maxSize>
 			<delay>0.0</delay>
-			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
 			<zIndex>15</zIndex>
 		 </video>
+		<image name="md_image">
+			<pos>0.5 0.2109375</pos>
+			<origin>0.5 0.5</origin>
+			<size>1 0</size>
+			<zIndex>15</zIndex>
+		</image>
 		<image name="videoVignette" extra="true">
 			<pos>0.5 0</pos>
 			<origin>0.5 0</origin>
@@ -282,28 +288,42 @@ license: creative commons CC-BY-NC-SA
 			<zIndex>18</zIndex>
 		</image>
 		<image name="listBG" extra="true">
-			<pos>0.5 0.5</pos>
+			<pos>0.5 0.49</pos>
 			<origin>0.5 0</origin>
-			<size>1 0.5</size>
+			<size>1 0.6</size>
 			<path>./assets/bg_white.png</path>
 			<color>f7f7f7</color>
 			<zIndex>19</zIndex>
 		</image>
+		<!--padding LURD -->
 		<imagegrid name="gamegrid">
+			<scrollDirection>horizontal</scrollDirection>
 			<pos>0 0.6</pos>
-			<size>1 0.40</size>
+			<size>1 0.28</size>
 			<margin>0.02 0.005</margin>
-			<padding>0.05 0 0.1 0</padding>
+			<padding>0.05 0 0.05 0</padding>
+			<autoLayout>3 1</autoLayout>
+			<!--			
+			<gameImage>./assets/cartridge/${system.theme}.png</gameImage>
+			-->
 		</imagegrid>
 		<gridtile name="default">
-			<size>0.213 0.169414875</size>
+			<size>0.22 0.25</size>
 			<padding>0.005 0.005</padding>
 			<imageColor>ffffffa0</imageColor>
 			<backgroundColor>ffffff00</backgroundColor>
 		</gridtile>
 		<gridtile name="selected">
-			<size>0.2343 0.1863563625</size>
+			<size>0.25 0.28</size>
 			<backgroundColor>ffffff00</backgroundColor>
 		</gridtile>
+		<text name="md_name">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.90</pos>
+			<color>5d5d5d</color>
+			<fontPath>./assets/GmarketSansMedium.otf</fontPath>
+			<fontSize>0.02</fontSize>
+		</text>		
+
 	</view>
 </theme>
